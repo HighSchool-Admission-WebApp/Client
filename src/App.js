@@ -1,19 +1,6 @@
 import {BrowserRouter,Switch,Route} from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-<<<<<<< HEAD
-import {useEffect} from 'react';
-=======
-<<<<<<< HEAD
-import {useEffect} from 'react';
-=======
-<<<<<<< HEAD
-import {useEffect} from 'react';
-=======
 import {useEffect, useState} from 'react';
->>>>>>> 0ea63c0 (Change in Form)
->>>>>>> d1b1b0c (Change in Form)
->>>>>>> cbc29ef (Change in form)
-
 import {auth} from './firebase';
 import './App.css';
 import Home from './pages/Home';
@@ -26,21 +13,11 @@ import Admission from './pages/Admission';
 import Art from './components/Courses/Art';
 import Science from './components/Courses/Science';
 import Commarce from './components/Courses/Commerce';
-
 import Navigation from './components/navigation';
-
 import UserRoute from './components/UserRoute';
-import Footer from './components/Footer';
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
+import Footer from './components/Footer'; 
 import axois from "axios";
->>>>>>> 0ea63c0 (Change in Form)
->>>>>>> d1b1b0c (Change in Form)
->>>>>>> cbc29ef (Change in form)
+ 
 
 const App =()=>{
   
